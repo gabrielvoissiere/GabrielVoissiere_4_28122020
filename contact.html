@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<!-- langue -->
+<html lang="fr">
+
+<head>
+	<!-- encodage -->
+	<meta charset="utf-8">
+	<!-- mots clés -->
+	<meta name="keywords"
+		content="agence design, agence de graphisme, UX, web designer, lyon, web design, devenir attractif">
+	<!-- description -->
+	<meta name="description"
+		content="La chouette agence est une entreprise qui vous aide à devenir attractif et visible sur internet">
+	<!-- responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/favicon.jpg">
+	<!-- preload -->
+	<link rel="preload" href="css/style.css" as="style">
+	<link rel="preload" href="fonts/et-line.woff" as="font" type="font/woff" crossorigin>
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/et-line.css">
+	<!-- titre de la page/onglet -->
+	<title>La chouette agence</title>
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/d55e797bfb.js" crossorigin="anonymous"></script>
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+
+	<!-- Google analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZ289R9NP6"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-CZ289R9NP6');
+	</script>
+	<!-- Google Analytics -->
+</head>
+
+<body>
+
+	<header>
+		<div class="boite">
+			<!-- logo de l'agence avec lien vers l'acceuil -->
+			<a class="logo" href="index.html"><img src="assets/la-chouette-agence.webp" alt="logo de l'agence" /></a>
+			<!-- navigation -->
+			<nav>
+				<a href="index.html">Accueil</a>
+				<a href="#">Nous contacter</a>
+			</nav>
+		</div>
+	</header>
+
+	<main id="main-contact">
+
+		<!-- banniere -->
+		<div class="banniere-haut-contact">
+			<!-- fond -->
+			<div class="fond"></div>
+			<!-- fin contenue banniere -->
+			<div class="fond2"></div>
+			<!-- fin contenue banniere -->
+		</div>
+		<!-- fin banniere -->
+
+		<!-- formulaire de contact -->
+		<form action="include/form_1.php">
+			<!-- nom -->
+			<label for="nom">Nom</label>
+			<input type="text" name="nom" id="nom">
+			<!-- mail -->
+			<label for="mail">Adresse mail</label>
+			<input type="email" name="mail" id="mail">
+			<!-- comment nous avez vous connu -->
+			<label for="comment_connu">Comment nous avez-vous connu ?</label>
+			<input type="text" name="comment_connu" id="comment_connu">
+			<!-- message -->
+			<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+			<textarea name="message" id="message" cols="60" rows="10"></textarea>
+		</form>
+		<!-- fin de formulaire -->
+
+	</main>
+
+	<!-- footer -->
+	<footer id="footer-contact">
+
+		<p>La chouette agence - Agence web basée à Lyon</p>
+
+	</footer>
+	<!-- footer fin -->
+
+</body>
+
+</html>
