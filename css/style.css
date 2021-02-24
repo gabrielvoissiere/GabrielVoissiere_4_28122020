@@ -1,3 +1,7 @@
+:root {
+    --first-color: #F3976C;
+}
+
 html {
     font-size: 14px;
     overflow-x: hidden;
@@ -87,7 +91,7 @@ header nav a {
     width: 100%;
     height: 16vw;
     /* background */
-    background-color: #F3976C;
+    background-color: var(--first-color);
     background-size: contain;
     background-position: -40px -10px;
     background-attachment: fixed;
@@ -227,7 +231,7 @@ form label {
     padding: 14px 30px;
     margin-top: 30px;
     /* background */
-    background-color: #F3976C;
+    background-color: var(--first-color);
     /* border */
     border-radius: 100px;
 }
@@ -599,7 +603,7 @@ form label {
     /* couleur */
     color: black;
     /* background */
-    background-color: #F3976C;
+    background-color: var(--first-color);
     /* bordures */
     border-radius: 100px;
     /* z-index */
@@ -625,7 +629,7 @@ form label {
     width: 100%;
     height: auto;
     /* background */
-    background-color: #F3976C;
+    background-color: var(--first-color);
     /* flex-box */
     display: flex;
     flex-direction: column;
@@ -713,7 +717,7 @@ form label {
     width: 100%;
     height: auto;
     /* background */
-    background-color: #F3976C;
+    background-color: var(--first-color);
     /* flex-box */
     display: flex;
     flex-direction: column;
