@@ -75,20 +75,31 @@
 
 		<!-- formulaire de contact -->
 		<form action="include/form_1.php">
-			<!-- nom -->
-			<label for="nom">Nom</label>
-			<input type="text" name="nom" id="nom">
-			<!-- mail -->
-			<label for="mail">Adresse mail</label>
-			<input type="email" name="mail" id="mail">
+			<div class="formhaut">
+				<div class="lab">
+					<!-- nom -->
+					<label for="nom">Nom</label>
+					<input type="text" name="nom" id="nom" placeholder="Dupont">
+				</div>
+				<!-- mail -->
+				<div class="lab">
+					<label for="mail">Adresse mail</label>
+					<input type="email" name="mail" id="mail" placeholder="dupontmichel@gmail.com">
+				</div>
+			</div>
 			<!-- comment nous avez vous connu -->
 			<label for="comment_connu">Comment nous avez-vous connu ?</label>
-			<input type="text" name="comment_connu" id="comment_connu">
+			<input type="text" name="comment_connu" id="comment_connu" placeholder="internet, amis, travail ...">
 			<!-- message -->
-			<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
-			<textarea name="message" id="message" cols="60" rows="10"></textarea>
+			<label for="message">Brief de votre projet </label>
+			<textarea name="message" id="message" cols="60" rows="10" placeholder="Ajoutez autant de détails que nécessaire"></textarea>
+			<button type="submit">Envoyer</button>
 		</form>
 		<!-- fin de formulaire -->
+
+		<p>contact@lachouetteagence.com</p>
+		<p>2 place Sathonay 69001 Lyon</p>
+		<p class="lastp">Ouvert de 9h à 18h, du lundi au vendredi</p>
 
 	</main>
 
