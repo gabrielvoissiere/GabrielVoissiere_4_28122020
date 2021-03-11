@@ -563,17 +563,19 @@ form button {
     opacity: 0;
     /* transition */
     transition: 300ms ease-in-out;
+    z-index: 997;
 }
 
 .portfolio .grille .fond4 .rond {
     /* background */
-    background-color: black;
+    background-color: gray;
     top: 0px;
     /* taille */
     width: 80px;
     height: 80px;
     /* bordures */
     border-radius: 100px;
+    z-index: 998;
 }
 
 .portfolio .grille .fond4 i {
@@ -582,7 +584,9 @@ form button {
     left: 50%;
     transform: translateX(-50%);
     /* taille */
-    font-size: 2rem;
+    font-size: 4rem;
+    color: white;
+    z-index: 999;
 }
 
 .portfolio .grille div:hover .fond4 {
