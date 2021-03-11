@@ -73,6 +73,17 @@ header nav {
     justify-content: space-between;
 }
 
+header button {
+    display: none;}
+
+header button div{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 header nav a {
     /* couleur */
     color: black;
@@ -892,9 +903,22 @@ form button {
         flex-direction: column;
     }
 
+    header button {
+        display: block;
+        margin-bottom: 10px;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        align-self: flex-end;
+    }
+
     header nav {
         width: 70%;
         margin-bottom: 10px;
+    }
+
+    .hide {
+    display: none;
     }
 
     .banniere-haut {
