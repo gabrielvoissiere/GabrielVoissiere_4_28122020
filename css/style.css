@@ -566,6 +566,24 @@ form button {
     z-index: 997;
 }
 
+.formtext {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    z-index: 999;
+    text-align: center;
+}
+
+.formtext h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.formtext p {
+    font-size: 1.5rem;
+}
+
 .portfolio .grille .fond4 .rond {
     /* background */
     background-color: gray;
