@@ -925,6 +925,20 @@ form button {
         height: 25vh;
     }
 
+    .banniere-haut-contact {
+        height: 25vh;
+    }
+
+    .banniere-haut-contact h1 {
+        font-size: 2rem;
+    }
+
+    .banniere-haut-contact p {
+        font-size: 1rem;
+        width: 80%;
+        align-self: center;
+    }
+
     .presentation h2 {
         font-size: 1.4rem;
         margin-top: 40px;
