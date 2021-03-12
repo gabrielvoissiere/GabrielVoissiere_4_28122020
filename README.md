@@ -10,4 +10,4 @@ __Langage utilisés :__
 * HTML
 * CSS
 
-<a href="https://tropifly.github.io/GabrielVoissiere_4_28122020/">Voir le projet</a>
+<a href="https://gabrielvoissiere.github.io/GabrielVoissiere_4_28122020/ ">Voir le projet</a>
